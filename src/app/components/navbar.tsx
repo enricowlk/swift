@@ -1,7 +1,7 @@
 // app/components/Navbar.tsx
 'use client';
 
-import { useStockStore } from '../store';
+import { useStockStore } from '@/app/store/store';
 
 export default function Navbar() {
   const { stockSymbol, setStockSymbol } = useStockStore();
@@ -10,7 +10,7 @@ export default function Navbar() {
     <>
       <nav className="bg-gray-800 px-4 py-3 flex justify-between items-center">
         <div className="flex items-center space-x-4">
-          <h1 className="text-xl font-bold text-blue-400">TradingGame</h1>
+          <h1 className="text-xl font-bold text-blue-400">SWIFT</h1>
           
           <div className="relative">
             <input

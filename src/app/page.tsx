@@ -2,8 +2,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import { useStockStore } from './store';
-
+import { useStockStore } from '@/app/store/store';
 export default function HomePage() {
   const {
     stockSymbol,
