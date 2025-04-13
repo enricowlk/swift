@@ -1,4 +1,4 @@
-// app/layout.tsx
+'use client';
 import './globals.css';
 import { Inter } from 'next/font/google';
 import Navbar from './components/navbar';
@@ -12,9 +12,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} min-h-screen bg-gray-900 text-white`}>
-        <Navbar />
-        {children}
+      <body className={`${inter.className} min-h-screen text-white bg-black`}>
+        <Navbar/>
+        <div className="flex pt-14 pl-16 min-h-screen bg-black">
+          <main className="flex-1 bg-black">
+            {children}
+          </main>
+        </div>
       </body>
     </html>
   );
