@@ -14,8 +14,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} min-h-screen text-white bg-black`}>
         <Navbar/>
-        <div className="flex pt-14 pl-16 min-h-screen bg-black">
-          <main className="flex-1 bg-black">
+        <div className="flex pt-14 pl-16 min-h-screen">
+          <main className="flex-1">
             {children}
           </main>
         </div>

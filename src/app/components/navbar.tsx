@@ -67,7 +67,7 @@ export default function Navbar() {
   return (
     <>
       {/* Top Navigation Bar */}
-      <nav className="bg-black px-4 py-2 flex items-center justify-between fixed top-0 left-0 right-0 z-50 h-14 border-b border-gray-800">
+      <nav className="px-4 py-2 flex items-center justify-between fixed top-0 left-0 right-0 z-50 h-14 border-b border-gray-800">
         {/* Left section - Logo */}
         <div className="flex items-center space-x-4">
           <Link href="/" className="flex items-center">
